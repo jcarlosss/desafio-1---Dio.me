@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Site Em HTML</title>
+  </head>
+  <body>
+    <h1  id="inicio">História do HTML</h1>
+    <hr>
+    <h2>Índice</h2>
+    <ul>
+      <li><a href="#criar">Como criar uma página web em HTML?</a></li>
+      <li><a href="#linha">Elementos em Linha</a></li>
+      <li><a href="#bloco">Elementos em Bloco</a></li>
+      <li><a href="#div_span">Qual a diferença entre div e span?</a></li>
+      <li><a href="#semantico">HTML semântico</a></li>
+      <li><a href="#referencias">Referências</a></li>
+    </ul>
+    <hr>
+
+    <h2>O que é HTML</h2>
+    
+
+    <p><strong>HTML</strong> é a sigla para <strong>Hypertext Markup Language</strong>, uma linguagem de marcação criada pelo cientista da computação <em>Temm Berners-Lee</em>,
+      com o objetivo de ser um sistema de hipertexto na Internet.
+      Sua primeira versão foi publicada em 1991 com 18 tags (etiquetas) e desde então ganhou novas versões, 
+      popularidade e cresceu muito no mercado. Hoje, é considerado o padrão oficial da Internet.
+      De acordo com a <em>Referêncema de Elementos HTML</em>, atualmente existem mais de 140 tags HTML.</p>
+      <p> Embora algumas delas estejam obsoletas e não sejam suportadas pelos navegadores. As especificações do HTML podem ser consultadas
+      no <strong>Consórcio World Wide Web (W3C)</strong>, responsável pela documentação e novos desenvolvimentos.
+      Em 2014, o HTML5 foi lançado e é a versão mais recente com novas tags semânticas, como "<em>article</em>", "<em>header</em>" e "<em>footer</em>".</p>
+
+    <h2 id="criar">Como criar uma página web em HTML?</h2>
+    <small> <a href="#inicio">Voltar para o Início</a></small>
+    
+    <p>Agora que sabemos o que é o HTML e que é possível criar um site do zero usando essa linguagem de marcação, vamos desenvolver
+      seu primeiro projeto. Para começar, vejamos quais são os primeiros passos para criar uma página web em HTML.</p>
+    <p> Documentos HTML são arquivos com extensões .html ou  e podem ser visualizados em qualquer navegador, que lê o
+      arquivo e renderiza o conteúdo para que os usuários possam vê-lo.</p>
+
+    <ol>
+      <strong><li>Escolha o editor de texto</li></strong>
+      <p>Existem muitas opções de editores de texto disponíveis na Internet, tanto gratuitos quanto pagos. Entre as opções gratuitas,
+        há vários que oferecem todos os recursos necessários para criar seu site.</p>
+        Existem dois tipos de editores:
+        <p><strong>Editores WYSIWYG</strong>: What You See Is What You Get (sim… é isso que eles se chamam!). São aqueles que permitem que você veja como o código 
+        aparece em uma página web enquanto você o desenvolve.
+        Para iniciantes, os editores WYSIWYG são altamente recomendados, pois não é necessário ter experiência em codificação.
+        Alguns exemplos incluem:</p>
+
+        <ul>
+          <li>Atom</li>
+          <li>Sublime</li>
+          <li>Notepad++</li>
+          <li>Visual Studio Code</li>
+        </ul>
+        <p>
+          <strong>Editores HTML textuais:</strong> São baseados em texto e exigem que você tenha conhecimento em HTML.
+          Esses editores não permitem ver ao vivo o resultado do seu código.
+          Exemplos incluem o Word e o Bloco de Notas nativo dos computadores com sistema operacional Windows.
+        </p>
+      <strong><li>Defina o projeto web</li></strong>
+      <p>
+        Você já definiu um tema para sua primeira página web em HTML? Não? Não se preocupe, é o seu site, então você pode criar a ideia que mais gosta, falar sobre si mesmo ou usar algum tema como exemplo. Neste caso, falaremos sobre editores de texto.
+        Preparado? Vamos começar o projeto!
+        Para criar sua primeira página web em HTML, escolhemos o editor Visual Studio Code. Mas você pode usar o que estiver instalado em seu computador.
+        Abra seu editor de texto e crie um novo documento, no qual começaremos a trabalhar
+      </p>
+      <strong><li>Estruture o código HTML</li></strong> <br>
+      <img src="foto.png"><br><br>
+
+          <ul>
+            <li><strong>!DOCTYPE HTML:</strong> Esta é a tag que define que o documento é HTML;</li><br>
+            <li><strong>html:</strong> Esta é a tag principal de uma página HTML;</li><br>
+            <li><strong>head:</strong> Esta é a tag que abre o bloco de informações sobre o site;</li><br>
+            <li><strong>title:</strong> Aqui, escrevemos o título incrível que daremos à página da web, aquele que aparece na borda da janela do navegador;</li><br>
+            <li><strong>h1:</strong> refere-se ao título principal que ficará visível no corpo da página;</li><br>
+            <li><strong>p:</strong> constrói um parágrafo de texto de acordo com o conteúdo inserido dentro dele;</li><br>
+            <li><strong>body:</strong> é o “corpo” da página, onde serão inseridos todos os elementos visuais que deverão aparecer, como os textos.</li>
+          </ul>
+    </ol>
+
+    <h2 id="linha">Elementos em Linha</h2>
+    <small> <a href="#inicio">Voltar para o Início</a></small>
+    <p>Elementos em linha, também conhecidos como inline, são elementos que ocupam somente a largura do seu conteúdo, como as tags:</p>
+    <ul>
+      <li><strong>a:</strong>é possível definir links com essa tag;</li><br>
+      <li><strong>span:</strong>é um container genérico para agrupar textos;</li><br>
+      <li><strong>br:</strong>cria uma quebra de linha;</li><br>
+      <li><strong>img src="":</strong>insere imagens no site;</li>
+    </ul>
+
+    <h2 id="bloco">Elementos em Bloco</h2>
+    <small> <a href="#inicio">Voltar para o Início</a></small>
+    <p>Elementos em bloco, ou elementos block level, são elementos que ocupam todo o espaço do seu elemento pai. Por exemplo, as tags:</p>
+    <ul>
+      <li><strong>header:</strong>define o cabeçalho da página;</li><br>
+      <li><strong>main:</strong>define o conteúdo principal da página;</li><br>
+      <li><strong>footer:</strong>define o rodapé da página;</li><br>
+      <li><strong>section:</strong>representa uma seção dentro do conteúdo principal;</li><br>
+      <li><strong>article:</strong>inclui um artigo na página;</li><br>
+      <li><strong>aside:</strong>faz referência a um outro conteúdo da página;</li><br>
+      <li><strong>nav:</strong>cria o menu de navegação;</li><br>
+      <li><strong>div:</strong>é como uma divisão na página para fins estéticos;</li><br>
+      <li><strong>p:</strong>representa um parágrafo;</li><br>
+      <li><strong>h1:</strong>define os títulos da página e se inicia no &#60;h1&#62; e vai até o &#60;h6&#62;;</li><br>
+      <li><strong>hr:</strong>constrói uma linha horizontal;</li><br>
+      <li><strong>videos:</strong>insere vídeos no site;</li>
+    </ul>
+
+    <h2 id="div_span">Qual a diferença entre div e span?</h2>
+    <small> <a href="#inicio">Voltar para o Início</a></small>
+    <p>Ao citar os elementos &#60;div&#62; e &#60;span&#62;, podemos notar que sua definição é semelhante: um container. </p>
+    <p>A diferença entre eles é que a &#60;div&#62; é um elemento de bloco, então, por padrão, ocupa toda a largura disponível horizontalmente, 
+      enquanto o &#60;span&#62; é um elemento em linha, ocupando somente o espaço necessário para seu conteúdo.
+      Uma dica para saber quando usar cada um deles é: a &#60;div&#62;, é mais utilizada para estruturar e organizar seções da página, 
+      enquanto o &#60;span&#62; é utilizado para aplicar estilos ou manipular partes menores de um texto ou conteúdo.</p>
+
+      <h2 id="semantico">HTML semântico</h2>
+      <p>O HTML semântico é uma abordagem no desenvolvimento web que enfatiza o uso correto e significativo dos elementos, escolhendo aqueles que melhor descrevem o conteúdo que está sendo apresentado.</p>
+      <p>Por exemplo, em vez de usar um &#60;div&#62; genérico para todo o conteúdo, é preferível usar elementos mais específicos, como &#60;&#62;, &#60;nav&#62;, &#60;main&#62;, &#60;article&#62;, &#60;section&#62;, &#60;footer&#62;, entre outros, de acordo com a estrutura e a natureza do conteúdo. Isso é utilizado para melhorar a SEO (Search Engine Optimization) e a acessibilidade da página.
+      &#60;p&#62;Uma das principais características dessa abordagem é a importância dos cabeçalhos, que são representados pelos elementos &#60;h1&#62; a &#60;h6&#62;, sendo essenciais para indicar a hierarquia do conteúdo. Os sites de pesquisa dão importância aos cabeçalhos e por isso é um ponto de foco.</p>
+      <p>O texto alternativo em imagens é crucial tanto para a acessibilidade quanto para o SEO. Tendo o cuidado de inserir o atributo alt nas tags de imagem, fornecendo um texto descritivo, isso permite que leitores de tela leiam o texto e que sites de pesquisa considerem esse texto ao classificar as páginas.</p>
+      <p>Ainda sobre textos no contexto de semântica, é importante usar links descritivos em vez de genéricos. Por exemplo, em vez de construir um link com “clique aqui”, escreva um texto que deixe claro o destino desse link.</p>
+
+        <hr>
+        <h2 id="referencias">Referências</h2>
+        <small> <a href="#inicio">Voltar para o Início</a></small>
+
+        <ol>
+          <li><a href="https://www.w3schools.com/" target="_blank">w3schools</a></li>
+          <li><a href="https://www.dio.me" target="_blank">Dio.me</a></li>
+          <li><a href="https://www.hostgator.com.br" target="_blank">HostGator Blog</a></li>
+          <li><a href="https://site.alura.com.br" target="_blank">Alura</a></li>
+        </ol>
+
+  </body>
+</html>
